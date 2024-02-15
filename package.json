@@ -1,0 +1,26 @@
+{
+  "name": "logseq-plugin-quick-move",
+  "version": "0.3.0",
+  "description": "Logseq plugin to quick move blocks",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "build": "parcel build --no-source-maps index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Abin Simon",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@logseq/libs": "^0.0.15"
+  },
+  "logseq": {
+    "id": "logseq-plugin-quick-move",
+    "title": "Quick Move",
+    "icon": "./icon.png"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
